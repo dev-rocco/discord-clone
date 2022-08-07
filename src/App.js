@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import ServerBtn from "./components/ServerBtn";
+import ServerBtnSep from "./components/ServerBtnSep";
+import HomeBtn from "./components/HomeBtn";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <div className="server-btn-div">
+            <HomeBtn />
+            <ServerBtnSep />
+            <ServerBtn />
+            <ServerBtn />
+            <ServerBtn />
+            <ServerBtn />
+            <ServerBtn />
+            <ServerBtn />
+            <ServerBtn />
+            <ServerBtn />
+            <ServerBtn />
+            <ServerBtn />
+            <ServerBtn />
+            <ServerBtn />
+        </div>
     </div>
   );
 }
-
-export default App;
