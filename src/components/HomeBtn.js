@@ -1,7 +1,10 @@
+import HomeIcon from "../res/home.jpeg"
+
 export default function HomeBtn() {
     return (
         <div>
-            <img src={"https://source.unsplash.com/random/52x52"} alt="Server Icon" className="server-btn-icon server-btn-icon-active" />
+            <div className="server-btn-ind-full"></div>
+            <img src={HomeIcon} alt="Server Icon" className="server-btn-icon server-btn-icon-active" />
         </div>
     );
 }

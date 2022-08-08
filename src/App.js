@@ -21,6 +21,17 @@ export default function App() {
             <ServerBtn />
             <ServerBtn />
             <ServerBtn />
+            <ServerBtn />
+            <ServerBtn />
+            <ServerBtn />
+            <ServerBtn />
+            <ServerBtn />
+            <ServerBtn />
+            <ServerBtn />
+            <ServerBtn />
+            <ServerBtn />
+            <ServerBtn />
+
         </div>
     </div>
   );

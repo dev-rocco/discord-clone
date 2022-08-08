@@ -1,7 +1,10 @@
+import ServerIcon from "../res/serverph.jpeg"
+
 export default function ServerBtn() {
     return (
         <div>
-            <img src={"https://source.unsplash.com/random/50x50"} alt="Server Icon" className="server-btn-icon" />
+            <div className="server-btn-ind-semi"></div>
+            <img src={ServerIcon} alt="Server Icon" className="server-btn-icon" />
         </div>
     );
 }
