@@ -1,4 +1,4 @@
-import ServerIcon from "../res/serverph.jpeg"
+import ServerIcon from "../../res/serverph.jpeg";
 
 export default function ServerBtn() {
     return (

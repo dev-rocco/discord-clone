@@ -1,4 +1,4 @@
-import HomeIcon from "../res/home.jpeg"
+import HomeIcon from "../../res/home.jpeg";
 
 export default function HomeBtn() {
     return (

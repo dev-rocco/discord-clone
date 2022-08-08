@@ -1,7 +1,7 @@
 import "./App.css";
-import ServerBtn from "./components/ServerBtn";
-import ServerBtnSep from "./components/ServerBtnSep";
-import HomeBtn from "./components/HomeBtn";
+import ServerBtn from "./components/serverbar/ServerBtn";
+import ServerBtnSep from "./components/serverbar/ServerBtnSep";
+import HomeBtn from "./components/serverbar/HomeBtn";
 
 export default function App() {
   return (
