@@ -1,10 +1,11 @@
 import ServerIcon from "../../res/serverph.jpeg";
 
-export default function ServerBtn() {
+export default function ServerBtn(props) {
     return (
         <div>
-            <div className="server-btn-ind-semi"></div>
-            <img src={ServerIcon} alt="Server Icon" className="server-btn-icon" />
+            <img src={ServerIcon} alt={props.name} className="server-btn-icon">
+                <div className="server-btn-ind-semi"></div>
+            </img>
         </div>
     );
 }
